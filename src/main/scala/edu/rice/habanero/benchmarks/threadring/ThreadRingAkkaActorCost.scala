@@ -65,7 +65,7 @@ object ThreadRingAkkaActorCost{
           // simulates some larger computation used 
           var i = 0
           var tmp = 0.toDouble
-          for (i <- 1 to 10) {
+          for (i <- 1 to 5) {
             tmp = tmp + scala.math.log(i.toDouble)
           }
 
@@ -152,7 +152,7 @@ object AsyncThreadRingAkkaActorCost{
             // simulates some larger computation used 
             var i = 0
             var tmp = 0.toDouble
-            for (i <- 1 to 10) {
+            for (i <- 1 to 5) {
               tmp = tmp + scala.math.log(i.toDouble)
             }
           } else {

@@ -50,9 +50,26 @@ object PingPongAkkaActorCost {
     override def process(msg: PingPongConfig.Message) {
       msg match {
         case _: PingPongConfig.StartMessage =>
+
+          // Artificial computation to add some delay
+          // simulates some larger computation used 
+          var i = 0
+          var tmp = 0.toDouble
+          for (i <- 1 to 5) {
+            tmp = tmp + scala.math.log(i.toDouble)
+          }
+
           pong ! new PingPongConfig.SendPingMessage(self)
           pingsLeft = pingsLeft - 1
         case _: PingPongConfig.PingMessage =>
+          // Artificial computation to add some delay
+          // simulates some larger computation used 
+          var i = 0
+          var tmp = 0.toDouble
+          for (i <- 1 to 5) {
+            tmp = tmp + scala.math.log(i.toDouble)
+          }
+
           pong ! new PingPongConfig.SendPingMessage(self)
           pingsLeft = pingsLeft - 1
         case _: PingPongConfig.SendPongMessage =>
