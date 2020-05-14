@@ -8,13 +8,13 @@ import edu.rice.habanero.benchmarks.{Benchmark, BenchmarkRunner}
  *
  * @author <a href="http://shams.web.rice.edu/">Shams Imam</a> (shams@rice.edu)
  */
-object CountingAkkaActorBenchmark {
+object CountingAkkaActorCost{
 
   def main(args: Array[String]) {
-    BenchmarkRunner.runBenchmark(args, new CountingAkkaActorBenchmark)
+    BenchmarkRunner.runBenchmark(args, new CountingAkkaActorCost)
   }
 
-  private final class CountingAkkaActorBenchmark extends Benchmark {
+  private final class CountingAkkaActorCost extends Benchmark {
     def initialize(args: Array[String]) {
       CountingConfig.parseArgs(args)
     }
