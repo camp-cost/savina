@@ -1,0 +1,133 @@
+Runtime: Java:1.8.0_252::Scala:2.11.0
+Benchmark: PhilosopherAkkaActorCost
+Args: 
+     N (num philosophers) = 20         
+    M (num eating rounds) = 10000      
+         C (num channels) = 1          
+                    debug = false      
+
+             Java Version = 1.8.0_252  
+              O/S Version = 4.19.0-8-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+  Num retries: 1029006146
+PhilosopherAkkaActorCost          Iteration-0:   567.396 ms 
+  Num retries: 1015990434
+PhilosopherAkkaActorCost          Iteration-1:   195.518 ms 
+  Num retries: 999468995
+PhilosopherAkkaActorCost          Iteration-2:   195.566 ms 
+  Num retries: 1007687108
+PhilosopherAkkaActorCost          Iteration-3:   229.801 ms 
+  Num retries: 1022746373
+PhilosopherAkkaActorCost          Iteration-4:   190.670 ms 
+  Num retries: 1001472780
+PhilosopherAkkaActorCost          Iteration-5:   184.038 ms 
+  Num retries: 1001080000
+PhilosopherAkkaActorCost          Iteration-6:   176.473 ms 
+  Num retries: 1000690000
+PhilosopherAkkaActorCost          Iteration-7:   174.262 ms 
+  Num retries: 1041948627
+PhilosopherAkkaActorCost          Iteration-8:   203.054 ms 
+  Num retries: 1103847570
+PhilosopherAkkaActorCost          Iteration-9:   208.062 ms 
+  Num retries: 1014441310
+PhilosopherAkkaActorCost         Iteration-10:   194.904 ms 
+  Num retries: 1015222484
+PhilosopherAkkaActorCost         Iteration-11:   189.901 ms 
+  Num retries: 1001290000
+PhilosopherAkkaActorCost         Iteration-12:   183.769 ms 
+  Num retries: 1001587119
+PhilosopherAkkaActorCost         Iteration-13:   191.122 ms 
+  Num retries: 997490918
+PhilosopherAkkaActorCost         Iteration-14:   180.853 ms 
+  Num retries: 1019657182
+PhilosopherAkkaActorCost         Iteration-15:   201.904 ms 
+  Num retries: 1001739579
+PhilosopherAkkaActorCost         Iteration-16:   178.884 ms 
+  Num retries: 1006270505
+PhilosopherAkkaActorCost         Iteration-17:   189.976 ms 
+  Num retries: 1000710157
+PhilosopherAkkaActorCost         Iteration-18:   191.533 ms 
+  Num retries: 1002768173
+PhilosopherAkkaActorCost         Iteration-19:   178.668 ms 
+  Num retries: 1042976777
+PhilosopherAkkaActorCost         Iteration-20:   202.202 ms 
+  Num retries: 1001629915
+PhilosopherAkkaActorCost         Iteration-21:   198.673 ms 
+  Num retries: 999730000
+PhilosopherAkkaActorCost         Iteration-22:   175.110 ms 
+  Num retries: 1000950597
+PhilosopherAkkaActorCost         Iteration-23:   180.319 ms 
+  Num retries: 1009164781
+PhilosopherAkkaActorCost         Iteration-24:   193.852 ms 
+  Num retries: 1000390000
+PhilosopherAkkaActorCost         Iteration-25:   174.034 ms 
+  Num retries: 1001549006
+PhilosopherAkkaActorCost         Iteration-26:   178.551 ms 
+  Num retries: 1003073768
+PhilosopherAkkaActorCost         Iteration-27:   176.761 ms 
+  Num retries: 1024842496
+PhilosopherAkkaActorCost         Iteration-28:   224.625 ms 
+  Num retries: 1038697214
+PhilosopherAkkaActorCost         Iteration-29:   207.973 ms 
+  Num retries: 1005649430
+PhilosopherAkkaActorCost         Iteration-30:   207.175 ms 
+  Num retries: 1001240000
+PhilosopherAkkaActorCost         Iteration-31:   176.564 ms 
+  Num retries: 1032692709
+PhilosopherAkkaActorCost         Iteration-32:   212.368 ms 
+  Num retries: 1007230978
+PhilosopherAkkaActorCost         Iteration-33:   204.241 ms 
+  Num retries: 1073914553
+PhilosopherAkkaActorCost         Iteration-34:   198.992 ms 
+  Num retries: 1029114824
+PhilosopherAkkaActorCost         Iteration-35:   198.138 ms 
+  Num retries: 1023678087
+PhilosopherAkkaActorCost         Iteration-36:   212.265 ms 
+  Num retries: 1003172288
+PhilosopherAkkaActorCost         Iteration-37:   195.993 ms 
+  Num retries: 1001139457
+PhilosopherAkkaActorCost         Iteration-38:   175.975 ms 
+  Num retries: 1001559797
+PhilosopherAkkaActorCost         Iteration-39:   183.555 ms 
+  Num retries: 1010221095
+PhilosopherAkkaActorCost         Iteration-40:   196.183 ms 
+  Num retries: 1008092337
+PhilosopherAkkaActorCost         Iteration-41:   179.977 ms 
+  Num retries: 1015069505
+PhilosopherAkkaActorCost         Iteration-42:   199.782 ms 
+  Num retries: 998553650
+PhilosopherAkkaActorCost         Iteration-43:   220.172 ms 
+  Num retries: 1015727799
+PhilosopherAkkaActorCost         Iteration-44:   203.360 ms 
+  Num retries: 1005400196
+PhilosopherAkkaActorCost         Iteration-45:   179.351 ms 
+  Num retries: 1000690000
+PhilosopherAkkaActorCost         Iteration-46:   180.197 ms 
+  Num retries: 1048064764
+PhilosopherAkkaActorCost         Iteration-47:   184.821 ms 
+  Num retries: 1002369985
+PhilosopherAkkaActorCost         Iteration-48:   179.783 ms 
+  Num retries: 1026945748
+PhilosopherAkkaActorCost         Iteration-49:   187.238 ms 
+
+
+Attributes - Summary: 
+PhilosopherAkkaActorCost     Avg. Retry Count: 1014372944.320 [ 50 of  50 values] 
+Execution - Summary: 
+         Total executions = 50         
+      Filtered executions = 49         
+PhilosopherAkkaActorCost            Best Time:   174.034 ms 
+PhilosopherAkkaActorCost           Worst Time:   229.801 ms 
+PhilosopherAkkaActorCost               Median:   191.122 ms 
+PhilosopherAkkaActorCost     Arith. Mean Time:   192.392 ms 
+PhilosopherAkkaActorCost       Geo. Mean Time:   191.913 ms 
+PhilosopherAkkaActorCost   Harmonic Mean Time:   191.447 ms 
+PhilosopherAkkaActorCost        Std. Dev Time:    13.760 ms 
+PhilosopherAkkaActorCost     Lower Confidence:   188.539 ms 
+PhilosopherAkkaActorCost    Higher Confidence:   196.244 ms 
+PhilosopherAkkaActorCost         Error Window:     3.853 ms (2.003 percent) 
+PhilosopherAkkaActorCost  Coeff. of Variation:     0.072 
+PhilosopherAkkaActorCost             Skewness:     0.690 
+

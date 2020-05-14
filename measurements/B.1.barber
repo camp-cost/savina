@@ -1,0 +1,134 @@
+Runtime: Java:1.8.0_252::Scala:2.11.0
+Benchmark: SleepingBarberAkkaActorCost
+Args: 
+         N (num haircuts) = 5000       
+    W (waiting room size) = 1000       
+    APR (production rate) = 1000       
+       AHR (haircut rate) = 1000       
+                    debug = false      
+
+             Java Version = 1.8.0_252  
+              O/S Version = 4.19.0-8-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+Total attempts: 5000
+SleepingBarberAkkaActorCost          Iteration-0:   548.524 ms 
+Total attempts: 531566
+SleepingBarberAkkaActorCost          Iteration-1:   470.662 ms 
+Total attempts: 1865701
+SleepingBarberAkkaActorCost          Iteration-2:  1018.992 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost          Iteration-3:   338.639 ms 
+Total attempts: 21372
+SleepingBarberAkkaActorCost          Iteration-4:   324.557 ms 
+Total attempts: 15723
+SleepingBarberAkkaActorCost          Iteration-5:   332.549 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost          Iteration-6:   337.743 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost          Iteration-7:   339.585 ms 
+Total attempts: 13456
+SleepingBarberAkkaActorCost          Iteration-8:   327.057 ms 
+Total attempts: 5610
+SleepingBarberAkkaActorCost          Iteration-9:   336.437 ms 
+Total attempts: 5525
+SleepingBarberAkkaActorCost         Iteration-10:   336.885 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-11:   334.114 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-12:   326.071 ms 
+Total attempts: 21901
+SleepingBarberAkkaActorCost         Iteration-13:   335.384 ms 
+Total attempts: 26284
+SleepingBarberAkkaActorCost         Iteration-14:   337.511 ms 
+Total attempts: 5152
+SleepingBarberAkkaActorCost         Iteration-15:   338.015 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-16:   330.333 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-17:   340.317 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-18:   338.602 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-19:   352.708 ms 
+Total attempts: 5021
+SleepingBarberAkkaActorCost         Iteration-20:   329.969 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-21:   335.398 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-22:   332.063 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-23:   335.539 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-24:   335.315 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-25:   323.258 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-26:   348.992 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-27:   329.900 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-28:   345.329 ms 
+Total attempts: 55230
+SleepingBarberAkkaActorCost         Iteration-29:   343.085 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-30:   329.243 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-31:   336.627 ms 
+Total attempts: 8560
+SleepingBarberAkkaActorCost         Iteration-32:   342.307 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-33:   330.365 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-34:   332.224 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-35:   331.825 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-36:   351.643 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-37:   337.184 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-38:   333.502 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-39:   348.772 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-40:   325.314 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-41:   339.204 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-42:   336.064 ms 
+Total attempts: 10801
+SleepingBarberAkkaActorCost         Iteration-43:   336.320 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-44:   324.564 ms 
+Total attempts: 20531
+SleepingBarberAkkaActorCost         Iteration-45:   335.389 ms 
+Total attempts: 58723
+SleepingBarberAkkaActorCost         Iteration-46:   335.443 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-47:   341.712 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-48:   350.551 ms 
+Total attempts: 5000
+SleepingBarberAkkaActorCost         Iteration-49:   345.207 ms 
+
+
+Attributes - Summary: 
+SleepingBarberAkkaActorCost     CustomerAttempts:  5034.421 [ 38 of  50 values] 
+Execution - Summary: 
+         Total executions = 50         
+      Filtered executions = 47         
+SleepingBarberAkkaActorCost            Best Time:   323.258 ms 
+SleepingBarberAkkaActorCost           Worst Time:   352.708 ms 
+SleepingBarberAkkaActorCost               Median:   336.064 ms 
+SleepingBarberAkkaActorCost     Arith. Mean Time:   336.358 ms 
+SleepingBarberAkkaActorCost       Geo. Mean Time:   336.282 ms 
+SleepingBarberAkkaActorCost   Harmonic Mean Time:   336.207 ms 
+SleepingBarberAkkaActorCost        Std. Dev Time:     7.138 ms 
+SleepingBarberAkkaActorCost     Lower Confidence:   334.317 ms 
+SleepingBarberAkkaActorCost    Higher Confidence:   338.398 ms 
+SleepingBarberAkkaActorCost         Error Window:     2.041 ms (0.607 percent) 
+SleepingBarberAkkaActorCost  Coeff. of Variation:     0.021 
+SleepingBarberAkkaActorCost             Skewness:     0.390 
+

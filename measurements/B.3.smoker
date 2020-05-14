@@ -1,0 +1,80 @@
+Runtime: Java:1.8.0_252::Scala:2.11.0
+Benchmark: CigaretteSmokerAkkaActorCost
+Args: 
+           R (num rounds) = 1000       
+          S (num smokers) = 200        
+                    debug = false      
+
+             Java Version = 1.8.0_252  
+              O/S Version = 4.19.0-8-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+CigaretteSmokerAkkaActorCost          Iteration-0:   258.008 ms 
+CigaretteSmokerAkkaActorCost          Iteration-1:   113.363 ms 
+CigaretteSmokerAkkaActorCost          Iteration-2:   113.383 ms 
+CigaretteSmokerAkkaActorCost          Iteration-3:   113.602 ms 
+CigaretteSmokerAkkaActorCost          Iteration-4:   100.321 ms 
+CigaretteSmokerAkkaActorCost          Iteration-5:   102.184 ms 
+CigaretteSmokerAkkaActorCost          Iteration-6:    94.969 ms 
+CigaretteSmokerAkkaActorCost          Iteration-7:   104.033 ms 
+CigaretteSmokerAkkaActorCost          Iteration-8:    88.712 ms 
+CigaretteSmokerAkkaActorCost          Iteration-9:    97.984 ms 
+CigaretteSmokerAkkaActorCost         Iteration-10:    99.525 ms 
+CigaretteSmokerAkkaActorCost         Iteration-11:   100.313 ms 
+CigaretteSmokerAkkaActorCost         Iteration-12:   102.526 ms 
+CigaretteSmokerAkkaActorCost         Iteration-13:   108.389 ms 
+CigaretteSmokerAkkaActorCost         Iteration-14:   101.204 ms 
+CigaretteSmokerAkkaActorCost         Iteration-15:   103.486 ms 
+CigaretteSmokerAkkaActorCost         Iteration-16:   102.588 ms 
+CigaretteSmokerAkkaActorCost         Iteration-17:   100.178 ms 
+CigaretteSmokerAkkaActorCost         Iteration-18:   101.821 ms 
+CigaretteSmokerAkkaActorCost         Iteration-19:   101.546 ms 
+CigaretteSmokerAkkaActorCost         Iteration-20:    99.789 ms 
+CigaretteSmokerAkkaActorCost         Iteration-21:   100.893 ms 
+CigaretteSmokerAkkaActorCost         Iteration-22:    99.201 ms 
+CigaretteSmokerAkkaActorCost         Iteration-23:   102.551 ms 
+CigaretteSmokerAkkaActorCost         Iteration-24:   100.384 ms 
+CigaretteSmokerAkkaActorCost         Iteration-25:   103.183 ms 
+CigaretteSmokerAkkaActorCost         Iteration-26:    97.651 ms 
+CigaretteSmokerAkkaActorCost         Iteration-27:   106.092 ms 
+CigaretteSmokerAkkaActorCost         Iteration-28:   104.193 ms 
+CigaretteSmokerAkkaActorCost         Iteration-29:   104.294 ms 
+CigaretteSmokerAkkaActorCost         Iteration-30:   110.737 ms 
+CigaretteSmokerAkkaActorCost         Iteration-31:   107.154 ms 
+CigaretteSmokerAkkaActorCost         Iteration-32:    96.896 ms 
+CigaretteSmokerAkkaActorCost         Iteration-33:    93.943 ms 
+CigaretteSmokerAkkaActorCost         Iteration-34:   108.403 ms 
+CigaretteSmokerAkkaActorCost         Iteration-35:   109.554 ms 
+CigaretteSmokerAkkaActorCost         Iteration-36:   109.971 ms 
+CigaretteSmokerAkkaActorCost         Iteration-37:    96.788 ms 
+CigaretteSmokerAkkaActorCost         Iteration-38:    94.521 ms 
+CigaretteSmokerAkkaActorCost         Iteration-39:    96.581 ms 
+CigaretteSmokerAkkaActorCost         Iteration-40:   103.097 ms 
+CigaretteSmokerAkkaActorCost         Iteration-41:   104.144 ms 
+CigaretteSmokerAkkaActorCost         Iteration-42:   105.660 ms 
+CigaretteSmokerAkkaActorCost         Iteration-43:   105.430 ms 
+CigaretteSmokerAkkaActorCost         Iteration-44:   108.519 ms 
+CigaretteSmokerAkkaActorCost         Iteration-45:   104.729 ms 
+CigaretteSmokerAkkaActorCost         Iteration-46:   101.425 ms 
+CigaretteSmokerAkkaActorCost         Iteration-47:    94.278 ms 
+CigaretteSmokerAkkaActorCost         Iteration-48:   105.787 ms 
+CigaretteSmokerAkkaActorCost         Iteration-49:   104.384 ms 
+
+
+Execution - Summary: 
+         Total executions = 50         
+      Filtered executions = 49         
+CigaretteSmokerAkkaActorCost            Best Time:    88.712 ms 
+CigaretteSmokerAkkaActorCost           Worst Time:   113.602 ms 
+CigaretteSmokerAkkaActorCost               Median:   102.551 ms 
+CigaretteSmokerAkkaActorCost     Arith. Mean Time:   102.660 ms 
+CigaretteSmokerAkkaActorCost       Geo. Mean Time:   102.524 ms 
+CigaretteSmokerAkkaActorCost   Harmonic Mean Time:   102.386 ms 
+CigaretteSmokerAkkaActorCost        Std. Dev Time:     5.289 ms 
+CigaretteSmokerAkkaActorCost     Lower Confidence:   101.180 ms 
+CigaretteSmokerAkkaActorCost    Higher Confidence:   104.141 ms 
+CigaretteSmokerAkkaActorCost         Error Window:     1.481 ms (1.443 percent) 
+CigaretteSmokerAkkaActorCost  Coeff. of Variation:     0.052 
+CigaretteSmokerAkkaActorCost             Skewness:    -0.019 
+
