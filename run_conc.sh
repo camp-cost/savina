@@ -1,0 +1,3 @@
+java -cp /home/dcastrop/Work/Cost-analysis/savina/target/savina-0.0.1-SNAPSHOT-jar-with-dependencies.jar edu.rice.habanero.benchmarks.barber.SleepingBarberAkkaActorCost -iter 50 > measurements/B.1.barber
+java -cp /home/dcastrop/Work/Cost-analysis/savina/target/savina-0.0.1-SNAPSHOT-jar-with-dependencies.jar edu.rice.habanero.benchmarks.philosopher.PhilosopherAkkaActorCost -iter 50 > measurements/B.2.philosphers
+java -cp /home/dcastrop/Work/Cost-analysis/savina/target/savina-0.0.1-SNAPSHOT-jar-with-dependencies.jar edu.rice.habanero.benchmarks.cigsmok.CigaretteSmokerAkkaActorCost -iter 50 > measurements/B.3.smoker
