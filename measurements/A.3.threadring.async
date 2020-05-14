@@ -1,0 +1,80 @@
+Runtime: Java:1.8.0_252::Scala:2.11.0
+Benchmark: AsyncThreadRingAkkaActorCost
+Args: 
+           N (num actors) = 100        
+           R (num rounds) = 100000     
+                    debug = false      
+
+             Java Version = 1.8.0_252  
+              O/S Version = 4.19.0-8-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+AsyncThreadRingAkkaActorCost          Iteration-0:   847.587 ms 
+AsyncThreadRingAkkaActorCost          Iteration-1:   629.835 ms 
+AsyncThreadRingAkkaActorCost          Iteration-2:   569.965 ms 
+AsyncThreadRingAkkaActorCost          Iteration-3:   560.548 ms 
+AsyncThreadRingAkkaActorCost          Iteration-4:   539.503 ms 
+AsyncThreadRingAkkaActorCost          Iteration-5:   549.959 ms 
+AsyncThreadRingAkkaActorCost          Iteration-6:   584.615 ms 
+AsyncThreadRingAkkaActorCost          Iteration-7:   555.210 ms 
+AsyncThreadRingAkkaActorCost          Iteration-8:   559.574 ms 
+AsyncThreadRingAkkaActorCost          Iteration-9:   553.930 ms 
+AsyncThreadRingAkkaActorCost         Iteration-10:   576.636 ms 
+AsyncThreadRingAkkaActorCost         Iteration-11:   540.912 ms 
+AsyncThreadRingAkkaActorCost         Iteration-12:   549.556 ms 
+AsyncThreadRingAkkaActorCost         Iteration-13:   568.166 ms 
+AsyncThreadRingAkkaActorCost         Iteration-14:   611.386 ms 
+AsyncThreadRingAkkaActorCost         Iteration-15:   559.344 ms 
+AsyncThreadRingAkkaActorCost         Iteration-16:   550.954 ms 
+AsyncThreadRingAkkaActorCost         Iteration-17:   562.721 ms 
+AsyncThreadRingAkkaActorCost         Iteration-18:   580.221 ms 
+AsyncThreadRingAkkaActorCost         Iteration-19:   556.141 ms 
+AsyncThreadRingAkkaActorCost         Iteration-20:   556.976 ms 
+AsyncThreadRingAkkaActorCost         Iteration-21:   568.825 ms 
+AsyncThreadRingAkkaActorCost         Iteration-22:   587.733 ms 
+AsyncThreadRingAkkaActorCost         Iteration-23:   561.547 ms 
+AsyncThreadRingAkkaActorCost         Iteration-24:   562.068 ms 
+AsyncThreadRingAkkaActorCost         Iteration-25:   561.605 ms 
+AsyncThreadRingAkkaActorCost         Iteration-26:   569.746 ms 
+AsyncThreadRingAkkaActorCost         Iteration-27:   557.667 ms 
+AsyncThreadRingAkkaActorCost         Iteration-28:   558.526 ms 
+AsyncThreadRingAkkaActorCost         Iteration-29:   584.133 ms 
+AsyncThreadRingAkkaActorCost         Iteration-30:   561.775 ms 
+AsyncThreadRingAkkaActorCost         Iteration-31:   567.865 ms 
+AsyncThreadRingAkkaActorCost         Iteration-32:   592.849 ms 
+AsyncThreadRingAkkaActorCost         Iteration-33:   572.628 ms 
+AsyncThreadRingAkkaActorCost         Iteration-34:   556.840 ms 
+AsyncThreadRingAkkaActorCost         Iteration-35:   565.270 ms 
+AsyncThreadRingAkkaActorCost         Iteration-36:   568.848 ms 
+AsyncThreadRingAkkaActorCost         Iteration-37:   595.373 ms 
+AsyncThreadRingAkkaActorCost         Iteration-38:   563.836 ms 
+AsyncThreadRingAkkaActorCost         Iteration-39:   565.631 ms 
+AsyncThreadRingAkkaActorCost         Iteration-40:   565.965 ms 
+AsyncThreadRingAkkaActorCost         Iteration-41:   608.462 ms 
+AsyncThreadRingAkkaActorCost         Iteration-42:   557.460 ms 
+AsyncThreadRingAkkaActorCost         Iteration-43:   578.937 ms 
+AsyncThreadRingAkkaActorCost         Iteration-44:   573.695 ms 
+AsyncThreadRingAkkaActorCost         Iteration-45:   565.022 ms 
+AsyncThreadRingAkkaActorCost         Iteration-46:   571.491 ms 
+AsyncThreadRingAkkaActorCost         Iteration-47:   571.270 ms 
+AsyncThreadRingAkkaActorCost         Iteration-48:   587.245 ms 
+AsyncThreadRingAkkaActorCost         Iteration-49:   548.051 ms 
+
+
+Execution - Summary: 
+         Total executions = 50         
+      Filtered executions = 49         
+AsyncThreadRingAkkaActorCost            Best Time:   539.503 ms 
+AsyncThreadRingAkkaActorCost           Worst Time:   629.835 ms 
+AsyncThreadRingAkkaActorCost               Median:   565.270 ms 
+AsyncThreadRingAkkaActorCost     Arith. Mean Time:   568.704 ms 
+AsyncThreadRingAkkaActorCost       Geo. Mean Time:   568.445 ms 
+AsyncThreadRingAkkaActorCost   Harmonic Mean Time:   568.193 ms 
+AsyncThreadRingAkkaActorCost        Std. Dev Time:    17.377 ms 
+AsyncThreadRingAkkaActorCost     Lower Confidence:   563.839 ms 
+AsyncThreadRingAkkaActorCost    Higher Confidence:   573.570 ms 
+AsyncThreadRingAkkaActorCost         Error Window:     4.865 ms (0.856 percent) 
+AsyncThreadRingAkkaActorCost  Coeff. of Variation:     0.031 
+AsyncThreadRingAkkaActorCost             Skewness:     1.323 
+

@@ -1,0 +1,4 @@
+java -cp /home/dcastrop/Work/Cost-analysis/savina/target/savina-0.0.1-SNAPSHOT-jar-with-dependencies.jar edu.rice.habanero.benchmarks.pingpong.PingPongAkkaActorCost -iter 50 > measurements/A.1.pingpong
+java -cp /home/dcastrop/Work/Cost-analysis/savina/target/savina-0.0.1-SNAPSHOT-jar-with-dependencies.jar edu.rice.habanero.benchmarks.threadring.ThreadRingAkkaActorCost -iter 50 > measurements/A.2.threadring
+java -cp /home/dcastrop/Work/Cost-analysis/savina/target/savina-0.0.1-SNAPSHOT-jar-with-dependencies.jar edu.rice.habanero.benchmarks.threadring.AsyncThreadRingAkkaActorCost -iter 50 > measurements/A.3.threadring.async
+java -cp /home/dcastrop/Work/Cost-analysis/savina/target/savina-0.0.1-SNAPSHOT-jar-with-dependencies.jar edu.rice.habanero.benchmarks.count.CountingAkkaActorCost -iter 50 > measurements/A.4.counting

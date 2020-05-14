@@ -1,0 +1,129 @@
+Runtime: Java:1.8.0_252::Scala:2.11.0
+Benchmark: CountingAkkaActorCost
+Args: 
+         N (num messages) = 1000000    
+                    debug = false      
+
+             Java Version = 1.8.0_252  
+              O/S Version = 4.19.0-8-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+SUCCESS! received: 1000000
+CountingAkkaActorCost          Iteration-0:   443.151 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost          Iteration-1:   313.243 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost          Iteration-2:   159.349 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost          Iteration-3:   222.445 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost          Iteration-4:   147.679 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost          Iteration-5:   215.573 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost          Iteration-6:   152.074 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost          Iteration-7:   149.244 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost          Iteration-8:   436.561 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost          Iteration-9:   149.044 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-10:   158.617 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-11:   150.893 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-12:   205.837 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-13:   154.756 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-14:   153.215 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-15:   155.394 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-16:   156.497 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-17:   152.056 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-18:   240.710 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-19:   148.852 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-20:   150.988 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-21:   153.355 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-22:   150.409 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-23:   158.246 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-24:   150.343 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-25:   162.012 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-26:   157.018 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-27:   151.276 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-28:   157.519 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-29:   154.532 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-30:   148.184 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-31:   155.779 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-32:   153.200 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-33:   151.438 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-34:   152.441 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-35:   159.087 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-36:   155.620 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-37:   151.314 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-38:   150.658 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-39:   153.843 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-40:   162.248 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-41:   151.357 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-42:   150.880 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-43:   150.718 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-44:   147.011 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-45:   159.464 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-46:   153.402 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-47:   147.399 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-48:   154.041 ms 
+SUCCESS! received: 1000000
+CountingAkkaActorCost         Iteration-49:   150.199 ms 
+
+
+Execution - Summary: 
+         Total executions = 50         
+      Filtered executions = 43         
+CountingAkkaActorCost            Best Time:   147.011 ms 
+CountingAkkaActorCost           Worst Time:   162.248 ms 
+CountingAkkaActorCost               Median:   152.441 ms 
+CountingAkkaActorCost     Arith. Mean Time:   153.294 ms 
+CountingAkkaActorCost       Geo. Mean Time:   153.246 ms 
+CountingAkkaActorCost   Harmonic Mean Time:   153.198 ms 
+CountingAkkaActorCost        Std. Dev Time:     3.864 ms 
+CountingAkkaActorCost     Lower Confidence:   152.139 ms 
+CountingAkkaActorCost    Higher Confidence:   154.449 ms 
+CountingAkkaActorCost         Error Window:     1.155 ms (0.753 percent) 
+CountingAkkaActorCost  Coeff. of Variation:     0.025 
+CountingAkkaActorCost             Skewness:     0.546 
+

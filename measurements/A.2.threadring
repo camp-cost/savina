@@ -1,0 +1,80 @@
+Runtime: Java:1.8.0_252::Scala:2.11.0
+Benchmark: ThreadRingAkkaActorCost
+Args: 
+           N (num actors) = 100        
+           R (num rounds) = 100000     
+                    debug = false      
+
+             Java Version = 1.8.0_252  
+              O/S Version = 4.19.0-8-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+ThreadRingAkkaActorCost          Iteration-0:  5115.230 ms 
+ThreadRingAkkaActorCost          Iteration-1:  4715.661 ms 
+ThreadRingAkkaActorCost          Iteration-2:  5171.890 ms 
+ThreadRingAkkaActorCost          Iteration-3:  5881.221 ms 
+ThreadRingAkkaActorCost          Iteration-4:  5038.194 ms 
+ThreadRingAkkaActorCost          Iteration-5:  4835.484 ms 
+ThreadRingAkkaActorCost          Iteration-6:  5261.318 ms 
+ThreadRingAkkaActorCost          Iteration-7:  5244.272 ms 
+ThreadRingAkkaActorCost          Iteration-8:  5522.712 ms 
+ThreadRingAkkaActorCost          Iteration-9:  4814.200 ms 
+ThreadRingAkkaActorCost         Iteration-10:  4819.016 ms 
+ThreadRingAkkaActorCost         Iteration-11:  4701.480 ms 
+ThreadRingAkkaActorCost         Iteration-12:  4921.332 ms 
+ThreadRingAkkaActorCost         Iteration-13:  4778.983 ms 
+ThreadRingAkkaActorCost         Iteration-14:  4829.272 ms 
+ThreadRingAkkaActorCost         Iteration-15:  5080.394 ms 
+ThreadRingAkkaActorCost         Iteration-16:  5157.192 ms 
+ThreadRingAkkaActorCost         Iteration-17:  4940.452 ms 
+ThreadRingAkkaActorCost         Iteration-18:  4842.348 ms 
+ThreadRingAkkaActorCost         Iteration-19:  4921.056 ms 
+ThreadRingAkkaActorCost         Iteration-20:  4893.646 ms 
+ThreadRingAkkaActorCost         Iteration-21:  4954.482 ms 
+ThreadRingAkkaActorCost         Iteration-22:  4930.580 ms 
+ThreadRingAkkaActorCost         Iteration-23:  4953.119 ms 
+ThreadRingAkkaActorCost         Iteration-24:  5398.205 ms 
+ThreadRingAkkaActorCost         Iteration-25:  5211.010 ms 
+ThreadRingAkkaActorCost         Iteration-26:  5037.778 ms 
+ThreadRingAkkaActorCost         Iteration-27:  5757.328 ms 
+ThreadRingAkkaActorCost         Iteration-28:  4889.381 ms 
+ThreadRingAkkaActorCost         Iteration-29:  4926.925 ms 
+ThreadRingAkkaActorCost         Iteration-30:  4893.967 ms 
+ThreadRingAkkaActorCost         Iteration-31:  5048.347 ms 
+ThreadRingAkkaActorCost         Iteration-32:  5215.339 ms 
+ThreadRingAkkaActorCost         Iteration-33:  4949.878 ms 
+ThreadRingAkkaActorCost         Iteration-34:  4839.595 ms 
+ThreadRingAkkaActorCost         Iteration-35:  4928.095 ms 
+ThreadRingAkkaActorCost         Iteration-36:  4823.482 ms 
+ThreadRingAkkaActorCost         Iteration-37:  5157.254 ms 
+ThreadRingAkkaActorCost         Iteration-38:  5053.391 ms 
+ThreadRingAkkaActorCost         Iteration-39:  4983.136 ms 
+ThreadRingAkkaActorCost         Iteration-40:  4946.937 ms 
+ThreadRingAkkaActorCost         Iteration-41:  5142.294 ms 
+ThreadRingAkkaActorCost         Iteration-42:  4903.357 ms 
+ThreadRingAkkaActorCost         Iteration-43:  4854.892 ms 
+ThreadRingAkkaActorCost         Iteration-44:  5492.224 ms 
+ThreadRingAkkaActorCost         Iteration-45:  4965.929 ms 
+ThreadRingAkkaActorCost         Iteration-46:  4988.430 ms 
+ThreadRingAkkaActorCost         Iteration-47:  4832.438 ms 
+ThreadRingAkkaActorCost         Iteration-48:  5140.306 ms 
+ThreadRingAkkaActorCost         Iteration-49:  5084.236 ms 
+
+
+Execution - Summary: 
+         Total executions = 50         
+      Filtered executions = 50         
+ThreadRingAkkaActorCost            Best Time:  4701.480 ms 
+ThreadRingAkkaActorCost           Worst Time:  5881.221 ms 
+ThreadRingAkkaActorCost               Median:  4953.800 ms 
+ThreadRingAkkaActorCost     Arith. Mean Time:  5035.754 ms 
+ThreadRingAkkaActorCost       Geo. Mean Time:  5030.266 ms 
+ThreadRingAkkaActorCost   Harmonic Mean Time:  5025.019 ms 
+ThreadRingAkkaActorCost        Std. Dev Time:   240.529 ms 
+ThreadRingAkkaActorCost     Lower Confidence:  4969.082 ms 
+ThreadRingAkkaActorCost    Higher Confidence:  5102.425 ms 
+ThreadRingAkkaActorCost         Error Window:    66.671 ms (1.324 percent) 
+ThreadRingAkkaActorCost  Coeff. of Variation:     0.048 
+ThreadRingAkkaActorCost             Skewness:     1.604 
+

@@ -1,0 +1,79 @@
+Runtime: Java:1.8.0_252::Scala:2.11.0
+Benchmark: PingPongAkkaActorCost
+Args: 
+            N (num pings) = 40000      
+                    debug = false      
+
+             Java Version = 1.8.0_252  
+              O/S Version = 4.19.0-8-amd64 
+                 O/S Name = Linux      
+                 O/S Arch = amd64      
+Execution - Iterations: 
+PingPongAkkaActorCost          Iteration-0:   300.035 ms 
+PingPongAkkaActorCost          Iteration-1:    86.520 ms 
+PingPongAkkaActorCost          Iteration-2:    55.720 ms 
+PingPongAkkaActorCost          Iteration-3:    46.059 ms 
+PingPongAkkaActorCost          Iteration-4:    40.552 ms 
+PingPongAkkaActorCost          Iteration-5:    43.432 ms 
+PingPongAkkaActorCost          Iteration-6:    40.601 ms 
+PingPongAkkaActorCost          Iteration-7:    41.511 ms 
+PingPongAkkaActorCost          Iteration-8:    38.547 ms 
+PingPongAkkaActorCost          Iteration-9:    42.691 ms 
+PingPongAkkaActorCost         Iteration-10:    42.624 ms 
+PingPongAkkaActorCost         Iteration-11:    38.599 ms 
+PingPongAkkaActorCost         Iteration-12:    39.810 ms 
+PingPongAkkaActorCost         Iteration-13:    41.717 ms 
+PingPongAkkaActorCost         Iteration-14:    39.519 ms 
+PingPongAkkaActorCost         Iteration-15:    40.673 ms 
+PingPongAkkaActorCost         Iteration-16:    38.718 ms 
+PingPongAkkaActorCost         Iteration-17:    37.106 ms 
+PingPongAkkaActorCost         Iteration-18:    48.583 ms 
+PingPongAkkaActorCost         Iteration-19:    46.249 ms 
+PingPongAkkaActorCost         Iteration-20:    39.597 ms 
+PingPongAkkaActorCost         Iteration-21:    38.055 ms 
+PingPongAkkaActorCost         Iteration-22:    39.955 ms 
+PingPongAkkaActorCost         Iteration-23:    39.438 ms 
+PingPongAkkaActorCost         Iteration-24:    37.349 ms 
+PingPongAkkaActorCost         Iteration-25:    38.967 ms 
+PingPongAkkaActorCost         Iteration-26:    40.641 ms 
+PingPongAkkaActorCost         Iteration-27:    39.501 ms 
+PingPongAkkaActorCost         Iteration-28:    39.014 ms 
+PingPongAkkaActorCost         Iteration-29:    39.159 ms 
+PingPongAkkaActorCost         Iteration-30:    36.530 ms 
+PingPongAkkaActorCost         Iteration-31:    42.688 ms 
+PingPongAkkaActorCost         Iteration-32:    37.969 ms 
+PingPongAkkaActorCost         Iteration-33:    36.377 ms 
+PingPongAkkaActorCost         Iteration-34:    37.737 ms 
+PingPongAkkaActorCost         Iteration-35:    45.277 ms 
+PingPongAkkaActorCost         Iteration-36:    38.104 ms 
+PingPongAkkaActorCost         Iteration-37:    41.105 ms 
+PingPongAkkaActorCost         Iteration-38:    37.307 ms 
+PingPongAkkaActorCost         Iteration-39:    43.399 ms 
+PingPongAkkaActorCost         Iteration-40:    38.407 ms 
+PingPongAkkaActorCost         Iteration-41:    39.247 ms 
+PingPongAkkaActorCost         Iteration-42:    39.189 ms 
+PingPongAkkaActorCost         Iteration-43:    55.425 ms 
+PingPongAkkaActorCost         Iteration-44:    40.650 ms 
+PingPongAkkaActorCost         Iteration-45:    39.011 ms 
+PingPongAkkaActorCost         Iteration-46:    38.031 ms 
+PingPongAkkaActorCost         Iteration-47:    41.588 ms 
+PingPongAkkaActorCost         Iteration-48:    39.382 ms 
+PingPongAkkaActorCost         Iteration-49:    37.394 ms 
+
+
+Execution - Summary: 
+         Total executions = 50         
+      Filtered executions = 45         
+PingPongAkkaActorCost            Best Time:    36.377 ms 
+PingPongAkkaActorCost           Worst Time:    46.249 ms 
+PingPongAkkaActorCost               Median:    39.438 ms 
+PingPongAkkaActorCost     Arith. Mean Time:    39.988 ms 
+PingPongAkkaActorCost       Geo. Mean Time:    39.921 ms 
+PingPongAkkaActorCost   Harmonic Mean Time:    39.857 ms 
+PingPongAkkaActorCost        Std. Dev Time:     2.352 ms 
+PingPongAkkaActorCost     Lower Confidence:    39.301 ms 
+PingPongAkkaActorCost    Higher Confidence:    40.675 ms 
+PingPongAkkaActorCost         Error Window:     0.687 ms (1.718 percent) 
+PingPongAkkaActorCost  Coeff. of Variation:     0.059 
+PingPongAkkaActorCost             Skewness:     0.953 
+
