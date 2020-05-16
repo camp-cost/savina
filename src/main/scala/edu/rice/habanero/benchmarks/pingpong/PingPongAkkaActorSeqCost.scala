@@ -25,13 +25,11 @@ object PingPongAkkaActorSeqCost {
     }
 
     def runIteration() {
-          val system = AkkaActorState.newActorSystem("PingPong")
           var i = 0
           var tmp = 0.toDouble
           for (i <- 1 to 5) {
             tmp = tmp + scala.math.log(i.toDouble)
           }
-          AkkaActorState.awaitTermination(system);
     }
 
     def cleanupIteration(lastIteration: Boolean, execTimeMillis: Double) {
